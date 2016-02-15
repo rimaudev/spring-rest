@@ -1,0 +1,31 @@
+/*
+when this grows, use stylus with BEM.
+*/
+
+body {
+  height: 100%;
+}
+
+#app {
+  height: 100%;
+}
+
+.mdl-button--fab {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  padding-top: 24px;
+  margin-bottom: 0;
+  z-index: 998;
+}
+
+.mdl-data-table {
+  width: 100%;
+}
+
+.owner-list {
+  max-height: 300px;
+  overflow: scroll;
+}
+
+
