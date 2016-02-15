@@ -156,4 +156,8 @@ Sample output:
 ]
 ```
 
+### FAQs
+
+Q: Chrome devtools showing `Uncaught TypeError: Cannot read property 'charAt' of null`. What is this?
+A: This is most likely a bug with a third party library used.
 
