@@ -22,7 +22,7 @@ export default class AppLayout extends React.Component {
 
   render() {
     const tabContent = this.state.activeTab === 0 ?
-      <CompanyBox url="//localhost:8080/companies"/> :
+      <CompanyBox url="/companies"/> :
       <div className="mdl-grid">
         <About title="Demo REST Client"
                description="Made possible with Material Design Lite (MDL), ReactJS, ECMAScript 2015 & Gulp."/>
