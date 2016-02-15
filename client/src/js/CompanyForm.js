@@ -146,6 +146,7 @@ class CompanyForm extends React.Component {
     let method = 'POST';
     if (this.props.companyId) {
       method = 'PUT';
+      // TODO: this will not update owners! need to make another REST call :-(
     }
 
     $.when($.ajax({
